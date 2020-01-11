@@ -31,4 +31,6 @@ body {
     url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
+
+    clip-path:
 } 
