@@ -62,4 +62,6 @@ body {
 .heading-primary-sub{
     display: block;
     font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 15px;
 }
