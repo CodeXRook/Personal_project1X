@@ -32,5 +32,5 @@ body {
     background-size: cover;
     background-position: top;
 
-    clip-path: polygon(50% 0, 100% 100%, 0 100%)
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%)
 } 
