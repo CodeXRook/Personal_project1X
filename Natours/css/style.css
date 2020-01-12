@@ -66,9 +66,23 @@ body {
     letter-spacing: 35px;
 }
 
-.heading-primary-sub{
+.heading-primary-sub {
     display: block;
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: 15px;
+    letter-spacing: 17.4px;
+}
+
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+    }
+
+    80%{
+
+    }
+    
+    100%{
+        opacity: 1;
+    }
 }
