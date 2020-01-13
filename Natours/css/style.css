@@ -129,7 +129,7 @@ body {
     text-transform: uppercase;
     text-decoration: none; 
     padding: 15px 40px;
-
+    display: inline-block;
 }
 
 .btn-white {
