@@ -154,4 +154,12 @@ body {
     display: inline-block;
     height: 100%;
     width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn-white::after {
+    background: #fff;
 }
