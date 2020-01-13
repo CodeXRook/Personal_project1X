@@ -91,15 +91,20 @@ body {
         transform: translateX(-100px);
     }
 
+    60% {
+        transform: rotate(180deg);
+    }
+
     80% {
-        transform: translate(10px);
+        transform: translate(10px) rotate(180deg);
     }
     
     100% { 
         opacity: 1;
-        transform: translate(0);
+        transform: translate(0) rotate(180deg);
     }
 }
+
 
 @keyframes moveInRight {
     0% {
