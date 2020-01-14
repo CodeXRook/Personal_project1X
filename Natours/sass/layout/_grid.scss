@@ -1,6 +1,16 @@
 .row {
-    max-width: 114rem;
+    max-width: $grid-width;
     background-color: #eee;
     margin: 0 auto;
-    margin-bottom: 80px;
+    
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+
+    .col-1-of-2 {
+        width: calc
+    }
 }
+
+//.row:not() everything exccept last child
+
