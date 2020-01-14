@@ -4,6 +4,7 @@ $color-primary-dark: #28b485;
 
 $color-grey-dark: #777;
 $color-white:white;
+$color-black: #000;
 
 
 
@@ -12,9 +13,9 @@ $color-white:white;
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
-    
+    box-sizing: inherit;  
 }
+
 
 html {
     font-size: 62.5%; 
@@ -160,12 +161,12 @@ body {
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
 }
 
 .btn:active {
     transform: translateY(-1px);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba($color-black,.2);
 }
 
 .btn--white {
