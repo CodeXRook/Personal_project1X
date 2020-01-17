@@ -50,6 +50,6 @@ body {
       
 
       &:hover {
-        transform: skewY(2deg);
+        transform: skewY(2deg) skewX(15deg);
       }
   }
