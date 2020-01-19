@@ -54,3 +54,22 @@
     }
   }
   
+  .btn-text {
+    &:link,
+    &:visited {
+      font-size: 1.6rem;
+      color: $color-primary;
+      display: inline-block;
+      text-decoration: none;
+      borgder-buttom: 1px solid $color-primary;
+      padding: 3px;
+    }
+
+    &.hover {
+
+    }
+
+    &:active{
+
+    }
+  }

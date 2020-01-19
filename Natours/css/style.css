@@ -100,7 +100,13 @@ body {
 .u-center-text {
   text-align: center; }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
   margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
@@ -145,6 +151,13 @@ body {
 .btn--animated {
   animation: moveInBottom 0.5s ease-out .75s;
   animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  borgder-buttom: 1px solid #55c57a;
+  padding: 3px; }
 
 .row {
   max-width: 114rem;
