@@ -181,6 +181,12 @@ body {
     .composition__photo--p1 {
       left: 0;
       top: -2rem; }
+    .composition__photo--p2 {
+      right: 0;
+      top: 2rem; }
+    .composition__photo--p3 {
+      left: 0;
+      top: -2rem; }
 
 .row {
   max-width: 114rem;
