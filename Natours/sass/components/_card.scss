@@ -1,0 +1,17 @@
+.card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+
+    &__side{
+        background-color: orangered;
+        height: 50rem;
+        transition: all .8s;
+    }
+
+
+    &:hover &__side {
+        transform: rotateY(180deg);
+    }
+}
+
+//WE HOVER THE CARD .card:hover THEN WHEN CARD IS HOVER THEN CARD SIDE WILL BE TRANSFORM .CARD__SIDE
