@@ -42,7 +42,21 @@
         transform: rotateY(0);
     }
 
+        //FRONT SIDE STYLING
     &--picture{
+        background-size: cover;
+
+        &--1{
+            background-image: url(../img/nat-5.img);
+        }
+
+        &--1{
+            background-image: url(../img/nat-5.img);
+        }
+
+        &--1{
+            background-image: url(../img/nat-5.img);
+        }
 
     }
 }
