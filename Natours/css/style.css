@@ -208,7 +208,11 @@ body {
   box-shadow: 0 1.5rem 4rem black; }
   .feature-box__icon {
     font-size: 6rem;
-    margin-bottom: .5rem; }
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent; }
 
 .row {
   max-width: 114rem;
