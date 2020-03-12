@@ -5,15 +5,34 @@
     background-color: $color-white;
     border-radius: 3px;
     padding: 6rem;
+    padding-left: 9rem;
     font-size: $default-font-size;
+    transform: skewX-(12deg);
+
+    & > * {
+        transform: skewX(12deg); 
+    }
 
     &__shape {
         width: 15rem;
         height: 15rem;
-        background-color: orangered;
         float: left;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
+        -webkit-clip-path:circle(50% at 50% 50%);
+        clip-path:circle(50% at 50% 50%);
+        transform: translate(-3rem)
     }
+
+    &__img {
+        height: 100%;
+
+    }
+
+    &_text {
+        transform: skewX(12deg);
+    }
+
 }
+
 
