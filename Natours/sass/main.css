@@ -749,8 +749,12 @@ body {
 }
 
 .book {
-  background-image: url(../img/nat-10.jpg);
-  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(orangred)), url(../img/nat-10.jpg);
+  background-image: linear-gradient(white, orangred), url(../img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
   height: 50rem;
 }
 /*# sourceMappingURL=main.css.map */
